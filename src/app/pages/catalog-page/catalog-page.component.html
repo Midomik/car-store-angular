@@ -1,0 +1,7 @@
+<div class="catalog_container">
+  <ul>
+    @for(car of cars; track car.id){
+    <app-car-card [car]="car"> </app-car-card
+    >}
+  </ul>
+</div>
